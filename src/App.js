@@ -17,14 +17,10 @@ function App() {
   return (
     <div className="App" style={{padding: 40}}>
       <Editor
-        ref={ref}           // required
-        plugins={plugins}   // required
-        id={'editor'}       // required
-        readOnly={readOnly} // required
-        defaultValue={
-`Hello world! 
-    GoodBye Moon!`
-        }
+        ref={ref}
+        plugins={plugins}
+        id={'editor'}
+        readOnly={readOnly}
       />
     </div>
   );

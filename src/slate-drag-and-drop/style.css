@@ -1,0 +1,34 @@
+div[data-slate-editor="true"] > ul {
+  position: relative;
+}
+
+.slate-sortable-ghost {
+  background-color: #ebebeb;
+  border-radius: 4px;
+}
+
+.slate-sortable-ghost > * {
+  opacity: 0;
+}
+
+.slate-sortable-drag {
+  background-color: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.slate-sortable-drag .slate-sortable-handle{
+  border-right: 4px solid #f44d49;
+}
+
+.slate-sortable-handle {
+  position: absolute;
+  right: -15px;
+  top: 2px;
+  bottom: 2px;
+  width: 15px;
+  font-size: 0;
+  border-right: 2px solid #e9e9e9;
+  cursor: move;
+}
